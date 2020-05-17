@@ -1,3 +1,9 @@
+body, h2, h3, h4, p, a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -178,11 +184,15 @@
   flex-direction: column;
   align-items: center;
   background-color: #f2f2f2;
-  background-image: url(../images/feynman.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-position-x: left;
-  background-size: 867px 637px;
+}
+
+.feynman__main-illustration {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
 }
 
 .feynman__title {
@@ -191,12 +201,14 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
+  z-index: 1;
 }
 
 .feynman__subtitle {
   margin-top: 70px;
   line-height: 51px;
   font-size: 36px;
+  z-index: 1;
 }
 
 .feynman__link {
