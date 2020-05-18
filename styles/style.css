@@ -265,7 +265,7 @@
   justify-content: space-between;
 }
 
-.footer_column {
+.footer__column {
   display: flex;
   flex-direction: column;
 }
