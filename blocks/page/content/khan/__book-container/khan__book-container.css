@@ -1,0 +1,9 @@
+@import url(../__book-pic/khan__book-pic.css);
+@import url(../__buy-link/khan__buy-link.css);
+
+.khan__book-container {
+  margin-top: 68px;
+  display: flex;
+  max-height: 620px;
+  overflow: hidden;
+}

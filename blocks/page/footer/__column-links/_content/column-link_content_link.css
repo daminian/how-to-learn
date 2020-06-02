@@ -1,0 +1,12 @@
+.column-link_content_link {
+  line-height: 30px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.column-link_content_link:hover {
+  opacity: .3;
+}
+
