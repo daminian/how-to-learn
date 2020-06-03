@@ -4,7 +4,7 @@
 @import url(./__title/feynman__title.css);
 
 .feynman {
-  height: 790px;
+  min-height: 790px;
   padding-top: 80px;
   display: flex;
   position: relative;

@@ -5,6 +5,4 @@
   display: flex;
   flex-direction: column;
   width: 80%;
-  min-width: 784px;
-  min-height: 300px;
 }

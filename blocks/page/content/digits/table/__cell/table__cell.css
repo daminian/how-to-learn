@@ -1,5 +1,5 @@
 .table__cell {
-  width: 250px;
+  width: calc(24%);
   margin-top: 60px;
   z-index: 1;
 }

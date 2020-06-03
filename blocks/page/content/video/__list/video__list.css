@@ -1,0 +1,7 @@
+.video__list {
+  margin-right: 20px;
+}
+
+.video__list:last-of-type {
+  margin-right: 0;
+}
